@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title><Биография> - образование</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .actor {
+            border-bottom: 2px solid #eaeaea;
+            padding: 20px 0;
+            margin: 20px 0;
+        }
+
+        .actor:last-child {
+            border-bottom: none;
+        }
+
+        .actor img {
+            border-radius: 8px;
+            margin-right: 20px;
+            float: left;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .actor-info {
+            overflow: hidden;
+        }
+
+        .actor h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="education.html">Образование</a></li>
+                <li><a href="hobby.html">Хобби</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Образование</h1>
+
+        <div class="education clearfix">
+            <img src="images/Primary.jpg" alt="Среднее образование" width="200">
+            <div class="Education-info">
+                <h2>Среднее образование</h2>
+                <p>Я получил <strong>среднее образование</strong> в 2025 году, окончив школу</p>
+            </div>
+        </div>
+
+        <div class="education clearfix">
+            <img src="images/High.jpg" alt="Высшее образование" width="200">
+            <div class="Education-info">
+                <h2>Высшее образование</h2>
+                <p>Я в процессе получения <strong>высшего образования</strong></p>
+            </div>
+        </div>
+
+      
+    </main>
+
+    <footer>
+        <p>© 2025 Мой сайт на тему моей биографии.</p>
+    </footer>
+
+</body>
+</html>
