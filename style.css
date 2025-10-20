@@ -4,13 +4,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #4682B4;
-    color: #333;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
 header {
-    background: #333;
+    background: #F0FFF0;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -41,7 +41,7 @@ main {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    background: #696969;
+    background: #F0FFF0;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -49,7 +49,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #696969;
+    background: #F0FFF0;
     color: #FFFFFF;
     position: relative;
     bottom: 0;
