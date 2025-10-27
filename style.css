@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #AFEEEE;
-    color: ##0000FF;
+    color: #000000;
 }
 
 
@@ -50,7 +50,7 @@ footer {
     text-align: center;
     padding: 1rem 0;
     background: #F0FFF0;
-    color: #0000FF;
+    color: #000000;
     position: relative;
     bottom: 0;
     width: 100%;
